@@ -6,10 +6,13 @@
 package test.posengsoftware;
 
 import javax.swing.JOptionPane;
-import posengsoftware.learning.Vetores;
-import posengsoftware.learning.Matriz;
-import posengsoftware.learning.Class_ArrayList;
-import posengsoftware.learning.Objeto_Pessoa;
+import Learning.Vetores;
+import Learning.Matriz;
+import Learning.Class_ArrayList;
+import Learning.Objeto_Pessoa;
+import Extends.Carro;
+import Extends.CarroEsportivo;
+
 
 
 
@@ -48,14 +51,21 @@ public class PosEngSoftware {
         
         	
         //OBJETO
-        Objeto_Pessoa objP = new Objeto_Pessoa();
+        /*Objeto_Pessoa objP = new Objeto_Pessoa();
         objP.nome = "Jackson"; //declare public a varivel do Objeto
         System.out.println(objP.MeuNome());
         
         Objeto_Pessoa objAtri = new Objeto_Pessoa("Jackson",31,"120.357.951-88"); //Sobrecarregar os Construtores, podemos ter dois
-        System.out.println(objAtri.MeusDados());
+        System.out.println(objAtri.MeusDados());*/
+        
+        //USANDO EXTENDS
+        /*CarroEsportivo carr = new CarroEsportivo();
+        carr.ace*/
               
-          
+        /*Carro ck = new Carro();        
+        System.out.println(ck.MetodoVisivel());*/
+        //ck.OutroMeetView();
+       
           
         //System.out.println("Mais uma Qualificação!\nPos-Graduação em Engenharia de Software");
         //String msg = "Mais uma Qualificação!\nPos-Graduação em Engenharia de Software";
