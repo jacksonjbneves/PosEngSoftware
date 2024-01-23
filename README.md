@@ -13,6 +13,17 @@ Estudando a Pos-Graduação em Engenharia de Software
 
   Documentação do Java EE(Extensão do Java SE(_Web e Serviços WEB - API_))
   - https://docs.oracle.com/javaee/7/index.html
+
+# Documentação JAVA:
+
+  Documentação do JDK(Java SE(_Standard Edition_)  - Desktop, App e Embarcados)  
+  - https://docs.oracle.com/en/java/javase/19/
+
+  Documentação API
+  - https://docs.oracle.com/en/java/javase/19/docs/api/index.html
+
+  Documentação do Java EE(Extensão do Java SE(_Web e Serviços WEB - API_))
+  - https://docs.oracle.com/javaee/7/index.html
   
 
 # Titulo 01
