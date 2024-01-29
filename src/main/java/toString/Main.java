@@ -4,6 +4,25 @@
  */
 package toString;
 
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Set;
+import java.util.SortedMap;
+import java.util.SortedSet;
+import java.util.Stack;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
 /**
  *
  * @author Jackson
@@ -26,51 +45,5 @@ public class Main {
     //Comparar a segunda coma a terceira String
     result = segunda.equals(terceira);
     System.out.println("Segunda é igual a terceira?"+result);
-
-
-
-
-    import java.util.Vector;
-
-    public class ExemploVector {
-        public static void main(String[] args) {
-            // Declaração e instanciação
-            Vector<String> vectorDeNomes = new Vector<>();
-    
-            // Adição de elementos
-            vectorDeNomes.add("Alice");
-            vectorDeNomes.add("Bob");
-            vectorDeNomes.add("Charlie");
-    
-            // Inserção de um elemento na posição 1
-            vectorDeNomes.add(1, "David");
-    
-            // Acesso a elementos
-            String nome = vectorDeNomes.get(2);
-            System.out.println("Nome na posição 2: " + nome);
-    
-            // Remoção de um elemento
-            vectorDeNomes.remove("Bob");
-    
-            // Tamanho do Vector
-            int tamanho = vectorDeNomes.size();
-            System.out.println("Tamanho do vector: " + tamanho);
-    
-            // Iteração sobre elementos
-            for (String elemento : vectorDeNomes) {
-                System.out.println(elemento);
-            }
-        }
-    }
-
-
-
-
-
-
-
-
-
-
     }
 }
